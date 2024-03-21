@@ -1,3 +1,16 @@
-.greetings {
-  color: red;
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.container {
+  max-width: 1312px;
+  padding: 24px;
+  margin: 0 auto;
+  box-sizing: content-box;
 }
