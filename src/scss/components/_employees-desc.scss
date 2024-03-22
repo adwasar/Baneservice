@@ -1,0 +1,31 @@
+.employees-desc {
+  &__content {
+    margin-top: 138px;
+  }
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__title {
+    width: 70%;
+    font-weight: 400;
+    padding-left: 24px;
+    &_highlight {
+      color: $bs-light-green;
+    }
+  }
+
+  &__text {
+    position: relative;
+    left: 8px;
+    width: 872px;
+    margin-top: 32px;
+    margin-left: auto;
+    line-height: 140%;
+    text-indent: 114px;
+    text-transform: capitalize;
+    color: $green-200;
+  }
+}
