@@ -1,0 +1,30 @@
+.video-section {
+  margin-top: 80px;
+  &__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 664px;
+    background-image: url('../assets/imgs/video.jpg');
+    width: calc(100% + 64px);
+    transform: translateX(-32px);
+  }
+
+  &__button {
+    width: 104px;
+    height: 104px;
+    border-radius: 50%;
+    border: 2px solid $gray-800;
+    background-color: inherit;
+    backdrop-filter: blur(4px);
+    &:hover {
+      border: 2px solid $white;
+    }
+  }
+
+  &__svg {
+    position: relative;
+    top: 2px;
+    left: 1px;
+  }
+}
