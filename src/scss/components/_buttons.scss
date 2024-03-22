@@ -1,0 +1,37 @@
+.primary-button,
+.secondary-button,
+.header-button {
+  height: 54px;
+  border-radius: 29px;
+  padding: 16px 32px;
+}
+
+.primary-button {
+  min-width: 256px;
+  background-color: $bs-light-green;
+  color: $bs-dark-green;
+  &:hover {
+    background-color: $bs-green;
+    color: $white;
+  }
+}
+
+.secondary-button {
+  background-color: transparent;
+  border: 1px solid $bs-dark-green;
+  color: $bs-dark-green;
+  &:hover {
+    background-color: $bs-light-green;
+    border: 0;
+  }
+}
+
+.header-button {
+  border: 1px solid $white;
+  background-color: transparent;
+  color: $white;
+  &:hover {
+    background-color: $white;
+    color: $bs-dark-green;
+  }
+}

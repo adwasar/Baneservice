@@ -1,0 +1,21 @@
+.header {
+  &__content {
+    display: flex;
+    height: 102px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+  }
+
+  &__nav {
+    position: relative;
+    right: 33px;
+    text-transform: uppercase;
+    letter-spacing: 0.2px;
+  }
+
+  &__list {
+    display: flex;
+    gap: 48px;
+  }
+}
