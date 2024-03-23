@@ -1,0 +1,73 @@
+.om-oss {
+  margin-top: 160px;
+  &__content {
+    display: flex;
+    gap: 16px;
+    justify-content: space-between;
+  }
+
+  &__title-description {
+    margin-top: 14px;
+    flex: 0 0 87px;
+    white-space: nowrap;
+  }
+
+  &__main {
+    flex: 0 0 864px;
+  }
+
+  &__title {
+    font-weight: 600;
+  }
+
+  &__title_cursive {
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  &__under-title {
+    margin-top: 12px;
+    display: flex;
+    gap: 49px;
+  }
+
+  &__under-title-left {
+    line-height: 23.4px;
+    font-weight: 600;
+    color: $bs-svat;
+    text-transform: capitalize;
+    max-width: 400px;
+  }
+
+  &__under-title-right {
+    position: relative;
+    top: 4px;
+    line-height: 24px;
+    color: $bs-svat;
+    max-width: 416px;
+  }
+
+  &__button {
+    margin-top: 35px;
+  }
+
+  &__frames {
+    margin-top: 80px;
+    display: grid;
+    gap: 64px 32px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  &__frame-title {
+    font-size: 96px;
+    line-height: 96px;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  &__frame-text {
+    margin-top: 12px;
+    max-width: 304px;
+    color: $gray-800;
+  }
+}

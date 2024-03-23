@@ -131,4 +131,8 @@ h5 {
     background-color: $white;
     color: $bs-svat;
   }
+  &_dark {
+    color: $bs-dark-green;
+    border-color: $bs-dark-green;
+  }
 }
