@@ -1,0 +1,21 @@
+.footer {
+  margin-top: 80px;
+  font-size: 14px;
+  line-height: 21px;
+  color: $green-700;
+  &__content {
+    padding: 24px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__list {
+    display: flex;
+    gap: 24px;
+  }
+
+  &__no-copyright {
+    display: flex;
+    gap: 24px;
+  }
+}
