@@ -3,21 +3,42 @@
   font-size: 14px;
   line-height: 21px;
   color: $green-700;
+  @include v-lg {
+    font-size: 12px;
+    margin-top: 65px;
+  }
   &__bottom {
     margin-top: 80px;
     padding: 24px 0;
     display: flex;
     justify-content: space-between;
+    @include v-lg {
+      margin-top: 39px;
+      flex-direction: column;
+      gap: 21px;
+    }
   }
 
   &__list {
     display: flex;
-    gap: 24px;
+    gap: 5px 24px;
+    flex-wrap: wrap;
+    @include v-lg {
+      justify-content: center;
+    }
+  }
+
+  &__list-item {
+    white-space: nowrap;
   }
 
   &__no-copyright {
     display: flex;
-    gap: 24px;
+    gap: 5px 24px;
+    flex-wrap: wrap;
+    @include v-lg {
+      justify-content: center;
+    }
   }
 }
 
@@ -39,9 +60,20 @@
     font-weight: 500;
     margin-top: 39px;
     gap: 16px;
+    @include v-md {
+      flex-direction: column;
+    }
   }
 
   &__secondary-button {
     width: 369px;
+  }
+
+  &__primary-button,
+  &__secondary-button {
+    max-width: 369px;
+    @include v-md {
+      width: 100%;
+    }
   }
 }
