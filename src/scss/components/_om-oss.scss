@@ -120,5 +120,10 @@
     bottom: -33%;
     width: 38vw;
     right: 0px;
+    @include v-md {
+      width: 151vw;
+      bottom: -22%;
+      left: 17%;
+    }
   }
 }
