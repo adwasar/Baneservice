@@ -48,6 +48,8 @@
   }
 
   &__title-description {
-    width: 100px;
+    @include v-lg {
+      width: 100px;
+    }
   }
 }
