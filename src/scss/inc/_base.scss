@@ -4,7 +4,6 @@
 
 body {
   background-color: $bs-sand;
-  overflow-x: hidden;
   color: $bs-dark-green;
 }
 
@@ -37,9 +36,25 @@ button {
   box-sizing: content-box;
 }
 
+.wrapper {
+  width: 100%;
+  overflow-x: hidden;
+}
+
 .bg-overlay {
+  position: relative;
   background-color: $bs-dark-green;
   color: $white;
+  &__vector-header {
+    position: absolute;
+    top: 128px;
+    right: -7px;
+  }
+  &__vector-body {
+    top: 24.1%;
+    right: -7px;
+    position: absolute;
+  }
 }
 
 .bg-overlay-tail {

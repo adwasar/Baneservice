@@ -17,214 +17,221 @@
 </head>
 
 <body>
-  <div class="bg-overlay">
-    <header class="header">
+  <div class="wrapper">
+    <div class="bg-overlay">
+      <img class="bg-overlay__vector-header" src="./assets/imgs/overlay-vectors-header.svg" alt="#">
+      <img class="bg-overlay__vector-body" src="./assets/imgs/overlay-vectors-body.svg" alt="#">
+      <header class="header">
+        <div class="container">
+          <div class="header__content">
+            <img class="header__logo" src="./assets/icons/logo.svg" alt="Logo">
+            <nav class="header__nav text-s">
+              <ul class="header__list">
+                <li class="header__list-item"><a href="#">Stilling</a></li>
+                <li class="header__list-item"><a href="#">Om oss</a></li>
+                <li class="header__list-item"><a href="#">Benefits</a></li>
+                <li class="header__list-item"><a href="#">Testimonial</a></li>
+              </ul>
+            </nav>
+            <button class="header__button header-button">Fyll hjelmen</button>
+          </div>
+        </div>
+      </header>
+
+      <section class="hero">
+        <div class="container">
+          <div class="hero__content">
+            <h1 class="hero__title"><span class="hero__title_cursive">Fyll hjelmen</span> med dine ferdigheter!</h1>
+            <div class="hero__right">
+              <p class="hero__text text-m">Hos oss i Baneservice finnes det mange muligheter, både for deg som akkurat
+                er
+                ferdig med utdannelsen, og for deg med lang erfaring. </p>
+              <button class="hero__button primary-button">Fyll hjelmen</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="video-section">
+        <div class="container">
+          <div class="video-section__content">
+            <button class="video-section__button">
+              <img class="video-section__svg" src="./assets/icons/play-vector.svg" alt="play">
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="employees-desc">
+        <div class="container">
+          <div class="employees-desc__content">
+            <div class="employees-desc__header">
+              <h3 class="employees-desc__title">Våre <span class="employees-desc__title_highlight">medarbeidere
+                </span>er
+                mer enn bare dyktig
+                <span class="employees-desc__title_highlight">fagfolk.</span>
+              </h3>
+              <div class="title-description">Vacancies</div>
+            </div>
+          </div>
+          <p class="employees-desc__text text-xl"> For at vi skal bygge fremtidens jernbane trenger vi våre medarbeidere
+            sine ferdigheter og egenskaper, derfor er vi lidenskapelig opptatt av hva som befinner seg under din hjelm.
+            om du liker fotball eller klatring, om du er kreativ eller løsningsorientert, er dette ting vi verdsetter.
+          </p>
+        </div>
+      </section>
+
+      <section class="cards">
+        <div class="container">
+          <div class="cards__content">
+            <div class="card">
+              <img class="card__img" src="./assets/imgs/cards/card-photo-1.jpg" alt="card image">
+              <div class="card__content">
+                <div class="card__header">
+                  <h4 class="card__title">Prosjektleder</h4>
+                  <div class="title-description title-description_white">Fagarbeider</div>
+                </div>
+                <button class="card__button">
+                  FYLL HJELMEN <img class="card__icon" src="./assets/icons/txt-button.svg" alt="apply button">
+                </button>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card__img" src="./assets/imgs/cards/card-photo-2.jpg" alt="card image">
+              <div class="card__content">
+                <div class="card__header">
+                  <h4 class="card__title">Energimontør</h4>
+                  <div class="title-description title-description_white">Energimontør</div>
+                </div>
+                <button class="card__button">
+                  FYLL HJELMEN <img class="card__icon" src="./assets/icons/txt-button.svg" alt="apply button">
+                </button>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card__img" src="./assets/imgs/cards/card-photo-3.jpg" alt="card image">
+              <div class="card__content">
+                <div class="card__header">
+                  <h4 class="card__title">Banemontør</h4>
+                  <div class="title-description title-description_white">Banemontør</div>
+                </div>
+                <button class="card__button">
+                  FYLL HJELMEN <img class="card__icon" src="./assets/icons/txt-button.svg" alt="apply button">
+                </button>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card__img" src="./assets/imgs/cards/card-photo-4.jpg" alt="card image">
+              <div class="card__content">
+                <div class="card__header">
+                  <h4 class="card__title">Signalmontør</h4>
+                  <div class="title-description title-description_white">Signalmontør</div>
+                </div>
+                <button class="card__button">
+                  FYLL HJELMEN <img class="card__icon" src="./assets/icons/txt-button.svg" alt="apply button">
+                </button>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card__img" src="./assets/imgs/cards/card-photo-5.jpg" alt="card image">
+              <div class="card__content">
+                <div class="card__header">
+                  <h4 class="card__title">Lokmotivfører</h4>
+                  <div class="title-description title-description_white">Fører</div>
+                </div>
+                <button class="card__button">
+                  FYLL HJELMEN <img class="card__icon" src="./assets/icons/txt-button.svg" alt="apply button">
+                </button>
+              </div>
+            </div>
+            <div class="card card_last">
+              <img class="card__logo" src="./assets/icons/logo-card.svg" alt="logo">
+              <h5 class="card__secondary-title">åpen søknad</h5>
+              <p class="card__text">Send oss gjerne en åpen søknad om det er andre hjelmer du ønsker å fylle.</p>
+              <button class="card__secondary-button secondary-button">Fyll hjelmen</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="bg-overlay-tail"></div>
+
+    <section class="om-oss">
       <div class="container">
-        <div class="header__content">
-          <img class="header__logo" src="./assets/icons/logo.svg" alt="">
-          <nav class="header__nav text-s">
-            <ul class="header__list">
-              <li class="header__list-item"><a href="#">Stilling</a></li>
-              <li class="header__list-item"><a href="#">Om oss</a></li>
-              <li class="header__list-item"><a href="#">Benefits</a></li>
-              <li class="header__list-item"><a href="#">Testimonial</a></li>
+        <div class="om-oss__content">
+          <div class="om-oss__title-description title-description title-description_dark">OM OSS</div>
+          <div class="om-oss__main">
+            <h2 class="om-oss__title">
+              <span class="om-oss__title_cursive">Lorem ipsum dolor sit </span>amet consectetur
+            </h2>
+            <div class="om-oss__under-title">
+              <p class="om-oss__under-title-left text-l">Lorem ipsum dolor sit amet consectetur. Tortor a
+                turpis at pharetra. Id nunc commodo morbi sapien diam enim. Lorem ipsum dolor sit amet consectetur.
+              </p>
+              <p class="om-oss__under-title-right text-m">Facilisis nunc est enim diam nibh tellus nisl enim.
+                Sed ultrices et morbi at. Odio quam vulputate tortor tellus. Scelerisque ullamcorper diam aliquam
+                lorem.</p>
+            </div>
+            <button class="om-oss__button primary-button">Fyll hjelmen</button>
+            <div class="om-oss__frames">
+              <div class="om-oss__frame">
+                <h3 class="om-oss__frame-title">400+</h3>
+                <p class="om-oss__frame-text text-m">Lorem ipsum dolor sit amet consectetur. Facilisis nunc est enim
+                  diam
+                  nibh
+                  tellus nisl enim.</p>
+              </div>
+              <div class="om-oss__frame">
+                <h3 class="om-oss__frame-title">600%</h3>
+                <p class="om-oss__frame-text text-m">Lorem ipsum dolor sit amet consectetur. Facilisis nunc est enim
+                  diam
+                  nibh
+                  tellus nisl enim.</p>
+              </div>
+              <div class="om-oss__frame">
+                <h3 class="om-oss__frame-title">10k</h3>
+                <p class="om-oss__frame-text text-m">Lorem ipsum dolor sit amet consectetur. Facilisis nunc est enim
+                  diam
+                  nibh
+                  tellus nisl enim.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img class="om-oss__bg-vector" src="./assets/imgs/bg-vector-bottom.svg" alt="#">
+    </section>
+
+    <footer class="footer">
+      <div class="cras-nibh">
+        <div class="container">
+          <h2 class="cras-nibh__title"><span class="cras-nibh__title_cursive">Cras nibh sollicitudin elit </span>varius
+            facilisi arcu feugiat amet in</h2>
+          <div class="cras-nibh__buttons">
+            <button class="cras-nibh__primary-button primary-button">Fyll hjelmen</button>
+            <button class="cras-nibh__secondary-button secondary-button">support@baneservice.cm</button>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="footer__bottom">
+          <nav class="footer__contacts">
+            <ul class="footer__list">
+              <li class="footer__list-item"><a href="#">post@baneservice.no</a></li>
+              <li class="footer__list-item"><a href="#">+47 916 56 700</a></li>
+              <li class="footer__list-item"><a href="#">LinkedIn</a></li>
+              <li class="footer__list-item"><a href="#">Facebook</a></li>
+              <li class="footer__list-item"><a href="#">Instagram</a></li>
             </ul>
           </nav>
-          <button class="header__button header-button">Fyll hjelmen</button>
-        </div>
-      </div>
-    </header>
-
-    <section class="hero">
-      <div class="container">
-        <div class="hero__content">
-          <h1 class="hero__title"><span class="hero__title_cursive">Fyll hjelmen</span> med dine ferdigheter!</h1>
-          <div class="hero__right">
-            <p class="hero__text text-m">Hos oss i Baneservice finnes det mange muligheter, både for deg som akkurat
-              er
-              ferdig med utdannelsen, og for deg med lang erfaring. </p>
-            <button class="hero__button primary-button">Fyll hjelmen</button>
+          <div class="footer__no-copyright">
+            <span class="footer__origin">© 2023 Baneservice. All rights reserved.</span>
+            <span class="footer__author">Personuppgiftspolicy & Kakor</span>
           </div>
         </div>
       </div>
-    </section>
-
-    <section class="video-section">
-      <div class="container">
-        <div class="video-section__content">
-          <button class="video-section__button">
-            <img class="video-section__svg" src="./assets/icons/play-vector.svg" alt="play">
-          </button>
-        </div>
-      </div>
-    </section>
-
-    <section class="employees-desc">
-      <div class="container">
-        <div class="employees-desc__content">
-          <div class="employees-desc__header">
-            <h3 class="employees-desc__title">Våre <span class="employees-desc__title_highlight">medarbeidere
-              </span>er
-              mer enn bare dyktig
-              <span class="employees-desc__title_highlight">fagfolk.</span>
-            </h3>
-            <div class="title-description">Vacancies</div>
-          </div>
-        </div>
-        <p class="employees-desc__text text-xl"> For at vi skal bygge fremtidens jernbane trenger vi våre medarbeidere
-          sine ferdigheter og egenskaper, derfor er vi lidenskapelig opptatt av hva som befinner seg under din hjelm.
-          om du liker fotball eller klatring, om du er kreativ eller løsningsorientert, er dette ting vi verdsetter.
-        </p>
-      </div>
-    </section>
-
-    <section class="cards">
-      <div class="container">
-        <div class="cards__content">
-          <div class="card">
-            <img class="card__img" src="./assets/imgs/cards/card-photo-1.jpg" alt="card image">
-            <div class="card__content">
-              <div class="card__header">
-                <h4 class="card__title">Prosjektleder</h4>
-                <div class="title-description title-description_white">Fagarbeider</div>
-              </div>
-              <button class="card__button">
-                FYLL HJELMEN <img class="card__icon" src="./assets/icons/txt-button.svg" alt="apply button">
-              </button>
-            </div>
-          </div>
-          <div class="card">
-            <img class="card__img" src="./assets/imgs/cards/card-photo-2.jpg" alt="card image">
-            <div class="card__content">
-              <div class="card__header">
-                <h4 class="card__title">Energimontør</h4>
-                <div class="title-description title-description_white">Energimontør</div>
-              </div>
-              <button class="card__button">
-                FYLL HJELMEN <img class="card__icon" src="./assets/icons/txt-button.svg" alt="apply button">
-              </button>
-            </div>
-          </div>
-          <div class="card">
-            <img class="card__img" src="./assets/imgs/cards/card-photo-3.jpg" alt="card image">
-            <div class="card__content">
-              <div class="card__header">
-                <h4 class="card__title">Banemontør</h4>
-                <div class="title-description title-description_white">Banemontør</div>
-              </div>
-              <button class="card__button">
-                FYLL HJELMEN <img class="card__icon" src="./assets/icons/txt-button.svg" alt="apply button">
-              </button>
-            </div>
-          </div>
-          <div class="card">
-            <img class="card__img" src="./assets/imgs/cards/card-photo-4.jpg" alt="card image">
-            <div class="card__content">
-              <div class="card__header">
-                <h4 class="card__title">Signalmontør</h4>
-                <div class="title-description title-description_white">Signalmontør</div>
-              </div>
-              <button class="card__button">
-                FYLL HJELMEN <img class="card__icon" src="./assets/icons/txt-button.svg" alt="apply button">
-              </button>
-            </div>
-          </div>
-          <div class="card">
-            <img class="card__img" src="./assets/imgs/cards/card-photo-5.jpg" alt="card image">
-            <div class="card__content">
-              <div class="card__header">
-                <h4 class="card__title">Lokmotivfører</h4>
-                <div class="title-description title-description_white">Fører</div>
-              </div>
-              <button class="card__button">
-                FYLL HJELMEN <img class="card__icon" src="./assets/icons/txt-button.svg" alt="apply button">
-              </button>
-            </div>
-          </div>
-          <div class="card card_last">
-            <img class="card__logo" src="./assets/icons/logo-card.svg" alt="logo">
-            <h5 class="card__secondary-title">åpen søknad</h5>
-            <p class="card__text">Send oss gjerne en åpen søknad om det er andre hjelmer du ønsker å fylle.</p>
-            <button class="card__secondary-button secondary-button">Fyll hjelmen</button>
-          </div>
-        </div>
-      </div>
-    </section>
+    </footer>
   </div>
-  <div class="bg-overlay-tail"></div>
-
-  <section class="om-oss">
-    <div class="container">
-      <div class="om-oss__content">
-        <div class="om-oss__title-description title-description title-description_dark">OM OSS</div>
-        <div class="om-oss__main">
-          <h2 class="om-oss__title">
-            <span class="om-oss__title_cursive">Lorem ipsum dolor sit </span>amet consectetur
-          </h2>
-          <div class="om-oss__under-title">
-            <p class="om-oss__under-title-left text-l">Lorem ipsum dolor sit amet consectetur. Tortor a
-              turpis at pharetra. Id nunc commodo morbi sapien diam enim. Lorem ipsum dolor sit amet consectetur.
-            </p>
-            <p class="om-oss__under-title-right text-m">Facilisis nunc est enim diam nibh tellus nisl enim.
-              Sed ultrices et morbi at. Odio quam vulputate tortor tellus. Scelerisque ullamcorper diam aliquam
-              lorem.</p>
-          </div>
-          <button class="om-oss__button primary-button">Fyll hjelmen</button>
-          <div class="om-oss__frames">
-            <div class="om-oss__frame">
-              <h3 class="om-oss__frame-title">400+</h3>
-              <p class="om-oss__frame-text text-m">Lorem ipsum dolor sit amet consectetur. Facilisis nunc est enim diam
-                nibh
-                tellus nisl enim.</p>
-            </div>
-            <div class="om-oss__frame">
-              <h3 class="om-oss__frame-title">600%</h3>
-              <p class="om-oss__frame-text text-m">Lorem ipsum dolor sit amet consectetur. Facilisis nunc est enim diam
-                nibh
-                tellus nisl enim.</p>
-            </div>
-            <div class="om-oss__frame">
-              <h3 class="om-oss__frame-title">10k</h3>
-              <p class="om-oss__frame-text text-m">Lorem ipsum dolor sit amet consectetur. Facilisis nunc est enim diam
-                nibh
-                tellus nisl enim.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="cras-nibh">
-    <div class="container">
-      <h2 class="cras-nibh__title"><span class="cras-nibh__title_cursive">Cras nibh sollicitudin elit </span>varius
-        facilisi arcu feugiat amet in</h2>
-      <div class="cras-nibh__buttons">
-        <button class="cras-nibh__primary-button primary-button">Fyll hjelmen</button>
-        <button class="cras-nibh__secondary-button secondary-button">support@baneservice.cm</button>
-      </div>
-    </div>
-  </section>
-
-  <footer class="footer">
-    <div class="container">
-      <div class="footer__content">
-        <nav class="footer__contacts">
-          <ul class="footer__list">
-            <li class="footer__list-item"><a href="#">post@baneservice.no</a></li>
-            <li class="footer__list-item"><a href="#">+47 916 56 700</a></li>
-            <li class="footer__list-item"><a href="#">LinkedIn</a></li>
-            <li class="footer__list-item"><a href="#">Facebook</a></li>
-            <li class="footer__list-item"><a href="#">Instagram</a></li>
-          </ul>
-        </nav>
-        <div class="footer__no-copyright">
-          <span class="footer__origin">© 2023 Baneservice. All rights reserved.</span>
-          <span class="footer__author">Personuppgiftspolicy & Kakor</span>
-        </div>
-      </div>
-    </div>
-  </footer>
 
   <noscript>Your browser does not support JavaScript!</noscript>
 </body>

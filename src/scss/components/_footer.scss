@@ -3,7 +3,8 @@
   font-size: 14px;
   line-height: 21px;
   color: $green-700;
-  &__content {
+  &__bottom {
+    margin-top: 80px;
     padding: 24px 0;
     display: flex;
     justify-content: space-between;
@@ -17,5 +18,30 @@
   &__no-copyright {
     display: flex;
     gap: 24px;
+  }
+}
+
+.cras-nibh {
+  color: $bs-dark-green;
+  &__title {
+    max-width: 1000px;
+    font-weight: 600;
+  }
+
+  &__title_cursive {
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  &__buttons {
+    display: flex;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 39px;
+    gap: 16px;
+  }
+
+  &__secondary-button {
+    width: 369px;
   }
 }

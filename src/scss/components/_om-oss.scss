@@ -1,5 +1,8 @@
 .om-oss {
+  position: relative;
   margin-top: 160px;
+  overflow: hidden;
+  padding-bottom: 101px;
   &__content {
     display: flex;
     gap: 16px;
@@ -69,5 +72,11 @@
     margin-top: 12px;
     max-width: 304px;
     color: $gray-800;
+  }
+
+  &__bg-vector {
+    position: absolute;
+    bottom: -32.3%;
+    right: -7px;
   }
 }
