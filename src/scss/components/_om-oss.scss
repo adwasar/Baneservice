@@ -1,18 +1,33 @@
 .om-oss {
   position: relative;
   margin-top: 160px;
-  overflow: hidden;
   padding-bottom: 101px;
+  overflow: hidden;
+  @include v-lg {
+    margin-top: 80px;
+    padding-bottom: 72px;
+  }
   &__content {
     display: flex;
     gap: 16px;
     justify-content: space-between;
+    @include v-lg {
+      flex-direction: column;
+      gap: 24px;
+    }
   }
 
   &__title-description {
     margin-top: 14px;
     flex: 0 0 87px;
     white-space: nowrap;
+    @include v-lg {
+      margin-top: 0;
+      flex: 0 0 auto;
+      height: 33px;
+      width: max-content;
+      font-size: 14px;
+    }
   }
 
   &__main {
@@ -32,6 +47,11 @@
     margin-top: 12px;
     display: flex;
     gap: 49px;
+    @include v-lg {
+      margin-top: 25px;
+      flex-direction: column;
+      gap: 12px;
+    }
   }
 
   &__under-title-left {
@@ -40,6 +60,10 @@
     color: $bs-svat;
     text-transform: capitalize;
     max-width: 400px;
+    @include v-lg {
+      margin: 0;
+      line-height: 20.8px;
+    }
   }
 
   &__under-title-right {
@@ -48,10 +72,18 @@
     line-height: 24px;
     color: $bs-svat;
     max-width: 416px;
+    @include v-lg {
+      margin: 0;
+      line-height: 21px;
+    }
   }
 
   &__button {
     margin-top: 35px;
+    @include v-lg {
+      width: 100%;
+      max-width: 320px;
+    }
   }
 
   &__frames {
@@ -59,6 +91,11 @@
     display: grid;
     gap: 64px 32px;
     grid-template-columns: repeat(2, 1fr);
+    @include v-md {
+      margin-top: 50px;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 18px;
+    }
   }
 
   &__frame-title {
@@ -66,6 +103,10 @@
     line-height: 96px;
     font-weight: 400;
     font-style: italic;
+    @include v-lg {
+      font-size: 48px;
+      line-height: 48px;
+    }
   }
 
   &__frame-text {
