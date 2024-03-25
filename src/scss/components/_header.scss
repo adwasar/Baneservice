@@ -1,4 +1,10 @@
 .header {
+  .container {
+    @include v-lg {
+      padding: 0 32px;
+    }
+  }
+
   &__content {
     display: flex;
     height: 102px;

@@ -1,8 +1,14 @@
 .hero {
   margin-top: 72px;
+  @include v-lg {
+    margin-top: 33px;
+  }
   &__content {
     display: flex;
     justify-content: space-between;
+    @include v-lg {
+      flex-direction: column;
+    }
   }
 
   &__title {
@@ -10,6 +16,12 @@
     font-size: 96px;
     font-weight: 600;
     flex: 0 0 640px;
+    @include v-lg {
+      padding-left: 0;
+      font-size: 48px;
+      line-height: 48px;
+      flex: auto;
+    }
   }
 
   &__title_cursive {
@@ -25,10 +37,21 @@
     flex-direction: column;
     justify-content: end;
     flex: 0 0 304px;
+    @include v-lg {
+      margin-top: 17px;
+      left: 0;
+      justify-content: center;
+      width: 100%;
+      flex: auto;
+    }
   }
 
   &__button {
     margin-top: 16px;
     width: 256px;
+    @include v-md {
+      margin-top: 19px;
+      width: 100%;
+    }
   }
 }

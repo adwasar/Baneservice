@@ -33,9 +33,6 @@ button {
   width: 100%;
   padding: 0 24px;
   margin: 0 auto;
-  @include v-lg {
-    padding: 0 32px;
-  }
 }
 
 .wrapper {
@@ -50,11 +47,14 @@ button {
   &__vector-header {
     position: absolute;
     top: 128px;
-    right: -7px;
+    right: 0;
+    @include v-md {
+      display: none;
+    }
   }
   &__vector-body {
     top: 24.1%;
-    right: -7px;
+    right: 0;
     position: absolute;
   }
 }
