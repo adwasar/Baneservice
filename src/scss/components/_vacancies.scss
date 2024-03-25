@@ -1,19 +1,32 @@
-.employees-desc {
+.vacancies {
   &__content {
     margin-top: 138px;
+    @include v-lg {
+      margin-top: 80px;
+    }
   }
 
   &__header {
     display: flex;
     justify-content: space-between;
+    @include v-lg {
+      flex-direction: column-reverse;
+    }
   }
 
   &__title {
+    padding-left: 24px;
     width: 70%;
     font-weight: 400;
-    padding-left: 24px;
     &_highlight {
       color: $bs-light-green;
+    }
+    @include v-lg {
+      margin-top: 24px;
+      padding-left: 0;
+      width: 85%;
+      font-size: 32px;
+      line-height: 35.2px;
     }
   }
 
@@ -27,5 +40,14 @@
     text-indent: 112px;
     text-transform: capitalize;
     color: $green-200;
+    @include v-lg {
+      width: 100%;
+      left: 0;
+      text-indent: 0;
+    }
+  }
+
+  &__title-description {
+    width: 100px;
   }
 }
