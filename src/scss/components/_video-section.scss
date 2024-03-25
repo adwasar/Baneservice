@@ -1,14 +1,29 @@
 .video-section {
   margin-top: 80px;
+  @include v-md {
+    margin-top: 63px;
+  }
   &__content {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 664px;
     background-image: url('../assets/imgs/video.jpg');
+    background-size: cover;
     background-position: center;
     width: calc(100% + 64px);
-    transform: translateX(-32px);
+    left: 50%;
+    transform: translateX(-50%);
+    @include v-lg {
+      height: 440px;
+    }
+    @include v-md {
+      height: 360px;
+    }
+    @include v-sm {
+      height: 256px;
+    }
   }
 
   &__button {
@@ -20,6 +35,10 @@
     backdrop-filter: blur(4px);
     &:hover {
       border: 2px solid $white;
+    }
+    @include v-md {
+      width: 80px;
+      height: 80px;
     }
   }
 
