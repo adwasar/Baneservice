@@ -49,7 +49,7 @@ button {
     position: absolute;
     width: 51vw;
     top: 128px;
-    right: 0;
+    right: -7px;
     @include v-lg {
       display: none;
     }
@@ -60,12 +60,12 @@ button {
   &__vector-body {
     position: absolute;
     top: 24.1%;
-    right: 0;
+    right: -7px;
     width: 30.6vw;
     @include v-lg {
-      top: 26.4%;
-      width: 38.3vw;
-      right: -7%;
+      top: 18.7%;
+      width: 39.3vw;
+      right: -8.1%;
     }
   }
 }

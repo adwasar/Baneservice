@@ -81,11 +81,9 @@
   &__img-desc,
   &__img-mob {
     position: absolute;
-    top: 0;
-    left: 50%;
-    width: auto;
     height: 100%;
-    transform: translateX(-50%);
+    width: 100%;
+    object-fit: cover;
   }
 
   &__img-desc {
@@ -98,11 +96,7 @@
   &__img-mob {
     display: none;
     @media (max-width: 480px) {
-      top: auto;
-      width: 100%;
-      height: auto;
       display: block;
-      bottom: 0;
     }
   }
 

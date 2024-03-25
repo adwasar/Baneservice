@@ -9,7 +9,7 @@
     justify-content: center;
     align-items: center;
     height: 664px;
-    background-image: url('../assets/imgs/video.jpg');
+    background-image: url('../assets/imgs/video.webp');
     background-size: cover;
     background-position: center;
     width: calc(100% + 64px);
@@ -20,8 +20,10 @@
     }
     @include v-md {
       height: 360px;
+      width: calc(100% + 48px);
     }
     @include v-sm {
+      background-image: url('../assets/imgs/video-mob.webp');
       height: 256px;
     }
   }
