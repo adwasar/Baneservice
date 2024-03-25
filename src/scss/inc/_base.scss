@@ -33,6 +33,9 @@ button {
   width: 100%;
   padding: 0 24px;
   margin: 0 auto;
+  @include v-lg {
+    padding: 0 32px;
+  }
 }
 
 .wrapper {

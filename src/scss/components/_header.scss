@@ -5,16 +5,44 @@
     align-items: center;
     justify-content: space-between;
     gap: 16px;
+    @include v-lg {
+      height: 80px;
+    }
+  }
+
+  &__logo {
+    @include v-lg {
+      width: 132px;
+    }
   }
 
   &__nav {
     position: relative;
     right: 33px;
     text-transform: uppercase;
+    @include v-lg {
+      right: auto;
+    }
   }
 
   &__list {
     display: flex;
     gap: 48px;
+    @include v-lg {
+      display: none;
+    }
+  }
+
+  &__button {
+    @include v-lg {
+      display: none;
+    }
+  }
+
+  &__burger-btn {
+    display: none;
+    @include v-lg {
+      display: block;
+    }
   }
 }
