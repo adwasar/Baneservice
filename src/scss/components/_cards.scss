@@ -7,7 +7,6 @@
   }
   &__content {
     display: grid;
-    height: 1216px;
     gap: 32px;
     grid-template-columns: repeat(2, 1fr);
     @include v-md {
